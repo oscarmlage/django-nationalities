@@ -114,6 +114,6 @@ class NationalityField(CharField):
 # like a normal CharField.
 try:
     from south.modelsinspector import add_introspection_rules
-    add_introspection_rules([], ["^nationalities\.fields\.NationalityField"])
+    add_introspection_rules([], ["^django_nationalities\.fields\.NationalityField"])
 except ImportError:
     pass
