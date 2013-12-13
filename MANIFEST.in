@@ -1,8 +1,8 @@
 include MANIFEST.in
 include README.rst
-recursive-include src/django_nationalities/static *
-recursive-include src/django_nationalities/locale *
-recursive-include src/django_nationalities/management/commands *
-recursive-include src/django_nationalities *.html
-recursive-include src/django_nationalities/migrations *
-recursive-include src/django_nationalities/fixtures *
+recursive-include django_nationalities/static *
+recursive-include django_nationalities/locale *
+recursive-include django_nationalities/management/commands *
+recursive-include django_nationalities *.html
+recursive-include django_nationalities/migrations *
+recursive-include django_nationalities/fixtures *
