@@ -12,6 +12,5 @@ setup(
     zip_safe=False,
     install_requires=[
         "Django>=1.5",
-        "South==0.7.6",
     ],
 )
